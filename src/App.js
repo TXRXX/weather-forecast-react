@@ -2,7 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import { Search, CurrentWeather, Forecast } from "./components";
 import { WEATHER_URL_API, WEATHER_KEY_API } from "./api";
-require('dotenv').config()
+
 
 function App() {
     const [currentWeather, setCurrentWeather] = useState(null);

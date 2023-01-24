@@ -1,0 +1,65 @@
+.wrap__search {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search__box {
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+    /* opacity: .4; */
+    color: black;
+}
+
+.wrap__search span {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.css-13cymwt-control,
+.css-t3ipsp-control,
+.css-13cymwt-control:hover,
+#react-select-3-listbox {
+    color: white !important;
+    background-color: rgba(255, 255, 255, 0.3) !important;
+    border-radius: 10px !important;
+    backdrop-filter: blur(10px);
+}
+
+.react-select__input-container input, .react-select__single-value {
+    color:  white !important;
+}
+
+.css-1jqq78o-placeholder,
+.css-qbdosj-Input:after {
+    color: white !important;
+}
+
+.react-select__indicators {
+    color: white !important;
+}
+
+.react-select__option--is-selected {
+    background-color: rgb(33, 33, 33, .4) !important;
+}
+
+.react-select__option:hover {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255, 0.4) !important;
+}
+
+.css-tj5bde-Svg {
+    fill: white !important;
+}
+
+.react-select__indicator span {
+    font-size: 10px;
+}

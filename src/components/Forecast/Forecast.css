@@ -1,0 +1,89 @@
+.wrap__accordion{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.daily-item {
+    position: relative;
+    width: 140px;
+    height: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #e7e7e9;
+    background-color: rgb(255, 255, 255, .5);
+    /* margin-right: 20px; */
+    gap: 0 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.daily-item:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.forecast__icon {
+    width: 50px;
+}
+
+.min, .max {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.minmax-text {
+    font-weight: 100;
+}
+
+.day {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 12px;
+    color: rgb(155, 155, 155);
+}
+
+.wrap__minmax {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap__minmax span {
+    margin-right: 10px;
+}
+
+.wrap__accordion__panel {
+    font-size: 14px;
+    height: 80%;
+    /* width: 120px; */
+    border-radius: 0 10px 10px 0;
+    padding: 0 10px;
+    background-color: rgb(225, 225, 225);
+}
+
+.wrap__accordion__item {
+    margin-right: 10px;
+}
+
+.Accordion-flex {
+    display: flex;
+    align-items: center;
+    transition: all 1s;
+}
+
+.param-row label:first-child {
+    font-weight: 100;
+    margin-right: 15px;
+}
+
+.gradient {
+    right: 0;
+    position: absolute;
+    width: 80px;
+    height: 120px;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.0) 0%, rgba(255, 255, 255, .7) 80%);
+    z-index: 3;
+}

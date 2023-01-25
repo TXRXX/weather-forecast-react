@@ -40,6 +40,10 @@ body {
 	margin-left: -400px;
 }
 
+.container__right__bottom h1 {
+	padding-left: 10px;
+}
+
 .anim {
 	animation: slideOut 1s forwards;
 }

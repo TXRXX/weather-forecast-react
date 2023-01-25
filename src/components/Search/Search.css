@@ -24,31 +24,24 @@
     font-weight: 300;
 }
 
-.css-13cymwt-control,
-.css-t3ipsp-control,
-.css-13cymwt-control:hover,
-#react-select-3-listbox {
+.react-select__menu,
+.react-select__control {
     color: white !important;
     background-color: rgba(255, 255, 255, 0.3) !important;
     border-radius: 10px !important;
     backdrop-filter: blur(10px);
 }
 
-.react-select__input-container input, .react-select__single-value {
-    color:  white !important;
-}
-
-.css-1jqq78o-placeholder,
-.css-qbdosj-Input:after {
-    color: white !important;
-}
-
+.react-select__input-container input,
+.react-select__single-value,
+.react-select__placeholder,
+.css-qbdosj-Input:after,
 .react-select__indicators {
     color: white !important;
 }
 
 .react-select__option--is-selected {
-    background-color: rgb(33, 33, 33, .4) !important;
+    background-color: rgb(33, 33, 33, 0.4) !important;
 }
 
 .react-select__option:hover {
@@ -56,7 +49,7 @@
     background-color: rgb(255, 255, 255, 0.4) !important;
 }
 
-.css-tj5bde-Svg {
+.react-select__indicator svg {
     fill: white !important;
 }
 
